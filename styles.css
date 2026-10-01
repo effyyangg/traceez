@@ -214,7 +214,7 @@ footer p{order:2}
 }
 
 /* Apple-inspired visual system: quiet hierarchy, material surfaces, and responsive feedback. */
-:root{--ink:#1d1d1f;--muted:#6e6e73;--cream:#fff;--line:#d2d2d7;--blue:#0071e3;--soft:#f5f5f7;--teal:#e8f5f2;--yellow:#fff7df;--pink:#fff0ed}
+:root{--ink:#1d1d1f;--muted:#6e6e73;--cream:#fff;--line:#d2d2d7;--blue:#0071e3;--soft:#f5f5f7;--teal:#e8f5f2;--yellow:#fff7df;--pink:#fff0ed}html{background:var(--soft);overscroll-behavior-y:none}
 body{background:var(--cream);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Noto Sans TC",sans-serif;font-size:16px;font-optical-sizing:auto}
 a{transition:color .2s ease,transform .2s ease,background .2s ease,box-shadow .2s ease}
 .site-header{position:fixed;top:12px;left:0;right:0;margin:0 auto;width:min(1120px,calc(100% - 32px));height:56px;padding:0 18px;border:1px solid rgba(255,255,255,.72);border-radius:18px;background:rgba(255,255,255,.74);box-shadow:0 12px 35px rgba(0,0,0,.08);backdrop-filter:blur(22px) saturate(180%);z-index:20}
